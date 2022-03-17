@@ -6,6 +6,7 @@ import ProfileList from './components/ProfileList';
 import Form from './components/Form';
 import NewProjectButton from './components/NewProjectButton';
 import Item from './components/Item';
+import DarkMode from './components/DarkMode';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Form />
         <NewProjectButton />
         <Item />
+        <DarkMode />
       </header>
     </div>
   );

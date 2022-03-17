@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Item(){
+export default function DarkMode(){
     return (
         <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
         <div class="md:flex">
