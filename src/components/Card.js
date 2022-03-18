@@ -7,10 +7,10 @@ export default function Card() {
         <img class="block mx-auto h-20 w-20 rounded-full sm:mx-0 sm:shrink-0" src={Avatar} alt="Woman's Face" />
         <div class="text-center space-y-2 sm:text-left">
             <div class="space-y-0.5">
-            <p class="text-lg text-black font-semibold">
+            <p class="text-sm text-black font-semibold">
                 Satoshi Nakamoto
             </p>
-            <p class="text-slate-500 text-xl font-medium">
+            <p class="text-slate-500 text-base font-medium">
                 Cryptography
             </p>
             </div>
