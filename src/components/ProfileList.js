@@ -12,7 +12,7 @@ export default function ProfileList(){
         <ul class="p-6 divide-y divide-slate-200">
             {people.map((person) => (
                 <li class="flex py-4 first:pt-0 last:pb-0">
-                <img class="h-10 w-10 rounded-full" src={person.imageUrl} alt="" />
+                <img class="h-10 mr-1 w-10 rounded-full" src={person.imageUrl} alt="" />
                 <div class="ml-3 overflow-hidden">
                     <p class="text-sm font-medium text-slate-900">{person.name}</p>
                     <p class="text-sm text-slate-500 truncate">{person.email}</p>
