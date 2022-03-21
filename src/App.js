@@ -7,6 +7,7 @@ import Form from './components/Form';
 import NewProjectButton from './components/NewProjectButton';
 import Item from './components/Item';
 import DarkMode from './components/DarkMode';
+import Contributors from './components/Contributors';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <NewProjectButton />
         <Item />
         <DarkMode />
+        <Contributors />
       </header>
     </div>
   );
